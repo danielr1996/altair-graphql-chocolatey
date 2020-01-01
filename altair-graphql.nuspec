@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.3.8</version>
+    <version>2.4.2</version>
     <packageSourceUrl>https://github.com/danielr1996/altair-graphql-chocolatey</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Daniel Richter&lt;danielrichter@posteo.de&gt;</owners>
@@ -34,16 +34,16 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>altair-graphql (Install)</title>
+    <title>Altair GraphQL Client</title>
     <authors>Samuel Imolo</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://github.com/danielr1996/altair-graphql-chocolatey</projectUrl>
+    <projectUrl>https://github.com/imolorhe/altair</projectUrl>
     <iconUrl>https://altair.sirmuel.design/favicon.ico</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://github.com/danielr1996/altair-graphql-chocolatey/blob/master/README.md</licenseUrl>
+    <licenseUrl>https://github.com/danielr1996/altair-graphql-chocolatey/blob/master/LICENSE.md</licenseUrl>
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <projectSourceUrl>https://github.com/danielr1996/altair-graphql-chocolatey</projectSourceUrl>
+    <projectSourceUrl>https://github.com/imolorhe/altair</projectSourceUrl>
     <docsUrl>https://github.com/danielr1996/altair-graphql-chocolatey/blob/master/README.md</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/danielr1996/altair-graphql-chocolatey/issues</bugTrackerUrl>
