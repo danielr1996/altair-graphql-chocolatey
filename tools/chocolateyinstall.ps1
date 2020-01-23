@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/imolorhe/altair/releases/download/v2.4.2/altair_2.4.2_win.exe'
-$url64      = 'https://github.com/imolorhe/altair/releases/download/v2.4.2/altair_2.4.2_win.exe'
+$url        = 'https://github.com/imolorhe/altair/releases/download/v2.4.3/altair_2.4.3_win.exe'
+$url64      = 'https://github.com/imolorhe/altair/releases/download/v2.4.3/altair_2.4.3_win.exe'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
